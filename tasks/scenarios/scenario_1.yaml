@@ -1,0 +1,33 @@
+pyramid_scenario_001:
+  metadata:
+    version: "1.0"
+    difficulty: "medium"
+    author: "JaworJar"
+    created: "2025-08-26"
+  
+  configuration:
+    blocked:
+      - tile: B2
+      - tile: B3
+      - tile: C2
+      - tile: C6
+      - tile: D4
+      - tile: D15
+    
+    collectibles:
+      - type: key
+        location: C4
+      - type: ladder
+        location: E24
+      - type: dynamite
+        location: D1
+    
+    objective:
+      goal_tile: A1
+      requires: ["key"]
+  
+  solution:
+    optimal_mp: 12
+    hint_1: "It is NOT the optimal solution"
+    hint_2: "You need to use dynamite"
+    hint_3: "You need to use dynamite on B2 tile"
