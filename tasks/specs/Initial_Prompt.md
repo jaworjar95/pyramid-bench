@@ -1,0 +1,1 @@
+Find the OPTIMAL solution with the ABSOLUTE MINIMUM Movement Points possible. THINK DEEPLY and explore ALL possibilities before presenting your answer. 
