@@ -90,6 +90,7 @@ You move from your current tile to one of the two tiles directly beneath it on t
 
 ### **Special Cases**
 
+- **Starting Position**: Players can start from any E-level tile (E1 through E32).
 - **From the Peak (A1)**: Can only move OUTWARD to any B tile (B1, B2, B3, or B4).
 - **To the Peak (A1)**: All B tiles can move INWARD to A1.
 - **From the Base (E-Tiles)**: Cannot move OUTWARD.
